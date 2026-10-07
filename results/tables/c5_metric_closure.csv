@@ -1,0 +1,3 @@
+matrix,status_quo_km,best_q20_km,best_q25_km,gap_pct,retrofit_saving_km,triangle_violation_share
+raw matrix,2600.50,2206.00,2065.50,15.17,140.50,0.58
+shortest-path closure,2579.00,2285.00,2134.00,11.40,151.00,0.00

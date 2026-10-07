@@ -1,0 +1,10 @@
+speed_kmh,stop_min,overnight_routes,overnight_names
+35.00,15.00,6,"Umrer, Kuhi, Katol, Amaravati, Bhandara, Mansar"
+35.00,20.00,7,"Umrer, Kuhi, Sawner, Katol, Amaravati, Bhandara, Mansar"
+35.00,30.00,9,"Wardha, Umrer, Kuhi, Sawner, Katol, Hingna, Amaravati, Bhandara, Mansar"
+40.00,15.00,5,"Kuhi, Katol, Amaravati, Bhandara, Mansar"
+40.00,20.00,6,"Umrer, Kuhi, Katol, Amaravati, Bhandara, Mansar"
+40.00,30.00,8,"Wardha, Umrer, Kuhi, Sawner, Katol, Amaravati, Bhandara, Mansar"
+45.00,15.00,5,"Kuhi, Katol, Amaravati, Bhandara, Mansar"
+45.00,20.00,5,"Kuhi, Katol, Amaravati, Bhandara, Mansar"
+45.00,30.00,7,"Umrer, Kuhi, Sawner, Katol, Amaravati, Bhandara, Mansar"

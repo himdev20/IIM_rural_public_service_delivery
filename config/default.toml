@@ -1,0 +1,141 @@
+# =============================================================================
+# Trucks, Time, and the Last Mile -- analysis configuration
+#
+# Every number that is an ASSUMPTION (not data from the case) is marked [A].
+# Every number that comes from the case is marked [D] with its source.
+# Run with a profile:  python -m lastmile all --profile quick|full
+# =============================================================================
+
+[data]
+case_workbook     = "data/raw/02_Main_Case_Data_File.xlsx"         # [D] RPAHD data file
+spreadsheet_model = "data/raw/01_IIM_Indore_project_for_SCM_MDP.xlsm"  # [D] VBA savings model
+abc_toy           = "data/raw/abc_warehouse.csv"                  # [D] ABC teaching case
+# "raw" = distance matrix exactly as supplied; "metric" = shortest-path closure.
+# The replication MUST use "raw". "metric" is used as a robustness check (C5).
+distance_mode = "raw"
+
+[economics]
+rate_per_km        = 19.0     # [D] Table 2: TATA truck, Rs 19 per km
+retrofit_cost      = 20000.0  # [D] Table 2 footnote: one-time partition cost
+retrofit_capacity  = 25       # [D] 20 + "five to six extra" cryocans (lower end)
+baseline_capacity  = 20       # [D] Table 2
+discount_rate      = 0.08     # [A] real discount rate for break-even capital value
+horizons_years     = [1, 3, 5]  # [A] the truck is hired on a YEARLY contract, so 1 yr is the conservative horizon
+fuel_share_of_rate = 0.60     # [A] share of the per-km hire rate that moves with diesel prices
+rate_grid          = [15.0, 17.0, 19.0, 21.0, 23.0, 25.0]   # [A] sensitivity
+fuel_shocks        = [-0.20, -0.10, 0.0, 0.10, 0.20, 0.40]  # [A] proportional diesel price changes
+
+[seasonality]
+# [D] "every 22-25 days in summer, 30-35 days in winter" (case p. 42).
+# [A] split of the year into a summer-like and winter-like half.
+summer_days          = 183
+summer_interval_days = [22, 25]
+winter_days          = 182
+winter_interval_days = [30, 35]
+
+[time]
+# [A] No travel times exist in the data. All of these are assumptions, used as ranges.
+speed_kmh           = 40.0   # base case
+stop_min            = 20.0   # base case, minutes per location (swap/refill one 50 L cryocan)
+depot_min           = 0.0    # loading time at the lab before departure
+extra_unit_min      = 5.0    # extra minutes per additional cryocan at the same stop (demand shocks)
+speeds_kmh          = [35.0, 40.0, 45.0]
+stops_min           = [15.0, 20.0, 30.0]
+shift_hours         = [8.0, 9.0, 10.0, 12.0]  # route-duration limits; "unlimited" is always added
+headline_shift_hours = 10.0  # 8 a.m. departure, 6 p.m. return
+overnight_threshold_hours = 10.0  # a route longer than this cannot return the same day
+
+[capacity]
+q_min = 15
+q_max = 30
+sensitivity_grid = [15, 18, 20, 22, 25, 28, 30]  # coarser Q grid for speed x stop sensitivity
+
+[solver]
+ortools_time_limit_s     = 15     # cold-start budget per solve
+continuation_time_limit_s = 8     # warm-start budget per Q in the up- and down-pass of a sweep
+ortools_first_solution   = "SAVINGS"
+marginal_resolve_s       = 2      # per village re-optimisation in Component 4
+convergence_time_limits_s = [5, 15, 30, 60, 120]
+use_cache = true
+cache_file = "results/cache/solutions.jsonl"
+
+[incidence]
+# Scenarios for Component 4. shift_hours = 0 means "no duration limit".
+scenarios = [
+  { capacity = 20, shift_hours = 0.0 },
+  { capacity = 25, shift_hours = 0.0 },
+  { capacity = 20, shift_hours = 10.0 },
+  { capacity = 25, shift_hours = 10.0 },
+]
+remote_quantiles = 5
+
+[robustness]
+# STYLISED demand-shock scenario (clearly labelled as such in all outputs):
+# a random fraction of locations needs TWO cryocans per visit in summer.
+demand_shock_fractions  = [0.10, 0.25]
+demand_shock_draws      = 3
+demand_shock_capacities = [20, 25]
+seed = 2026
+
+[extrapolation]
+# [A] Very rough: other districts are assumed to look like Nagpur up to a scale factor.
+other_districts = 35
+scale_low  = 0.5
+scale_high = 1.5
+
+[output]
+results_dir = "results"
+
+# -----------------------------------------------------------------------------
+# Profiles override the sections above.
+#  quick : what the committed results were produced with (single CPU, ~1.5 h)
+#  full  : recommended for the paper (longer searches, ~6-8 h single core)
+#  smoke : seconds; for CI / checking the pipeline end to end
+# -----------------------------------------------------------------------------
+[profiles.quick.solver]
+ortools_time_limit_s = 15        # unconstrained problems (C0-C2)
+continuation_time_limit_s = 8
+constrained_time_limit_s = 5     # duration-limited sweeps (C3): fast settings, raise for the paper
+constrained_continuation_s = 3
+marginal_resolve_s = 0           # C4: drop + 2-opt + drive-through only (no OR-Tools re-solve)
+
+[profiles.quick.capacity]
+sensitivity_grid = [15, 20, 25, 30]
+
+[profiles.quick.time]
+shift_hours = [8.0, 10.0, 12.0]
+
+[profiles.quick.robustness]
+demand_shock_draws = 2
+
+[profiles.full.solver]
+ortools_time_limit_s = 60
+continuation_time_limit_s = 30
+constrained_time_limit_s = 30
+constrained_continuation_s = 15
+marginal_resolve_s = 5
+convergence_time_limits_s = [5, 15, 30, 60, 120, 300, 600]
+
+[profiles.smoke.solver]
+ortools_time_limit_s = 1
+continuation_time_limit_s = 1
+marginal_resolve_s = 0
+convergence_time_limits_s = [1, 2]
+cache_file = "results_smoke/cache/solutions.jsonl"
+
+[profiles.smoke.capacity]
+q_min = 19
+q_max = 21
+sensitivity_grid = [20, 25]
+
+[profiles.smoke.time]
+speeds_kmh = [40.0]
+stops_min = [20.0]
+shift_hours = [10.0]
+
+[profiles.smoke.robustness]
+demand_shock_fractions = [0.25]
+demand_shock_draws = 1
+
+[profiles.smoke.output]
+results_dir = "results_smoke"

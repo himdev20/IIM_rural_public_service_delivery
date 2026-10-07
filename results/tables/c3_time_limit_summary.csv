@@ -1,0 +1,5 @@
+shift_hours,label,c_q20_km,c_q25_km,retrofit_saving_km,retrofit_saving_rs_year_mid,saturation_capacity,price_same_day_km_q20,routes_q20,max_load_q20,price_same_day_rs_year_mid_q20
+0.00,no limit,2206.00,2065.50,140.50,35737.22,29,0.00,9,20,0.00
+8.00,8 h,2979.50,2979.50,0.00,0.00,15,773.50,17,13,196745.49
+10.00,10 h,2535.50,2535.50,0.00,0.00,16,329.50,13,17,83810.78
+12.00,12 h,2388.50,2388.50,0.00,0.00,17,182.50,11,17,46420.23

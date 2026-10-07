@@ -1,0 +1,11 @@
+capacity,method,total_km,routes,max_load,seconds,feasible,vs_spreadsheet_pct
+20,cw_spreadsheet,2336.70,9,20,0.21,True,0.00
+20,cw,2336.70,9,20,0.02,True,0.00
+20,cw+2opt,2296.70,9,20,0.02,True,-1.71
+20,ortools,2293.00,9,20,15.00,True,-1.87
+20,best found,2206.00,9,20,,True,-5.59
+25,cw_spreadsheet,2237.50,8,25,0.23,True,0.00
+25,cw,2237.50,8,25,0.02,True,0.00
+25,cw+2opt,2193.70,8,25,0.03,True,-1.96
+25,ortools,2143.00,8,25,15.00,True,-4.22
+25,best found,2054.20,8,25,,True,-8.19

@@ -1,0 +1,6 @@
+comparison,capacity,heuristic,status_quo_km,heuristic_km,best_km,judgment_gap_km,heuristic_gap_km,total_gap_km,judgment_share,heuristic_share,total_gap_pct_of_sq,total_gap_rs_per_year_mid
+nominal,20,spreadsheet CW,2600.500,2336.700,2206.000,263.800,130.700,394.500,0.669,0.331,15.170,100344.013
+nominal,20,clean CW,2600.500,2336.700,2206.000,263.800,130.700,394.500,0.669,0.331,15.170,100344.013
+nominal,20,CW + 2-opt,2600.500,2296.700,2206.000,303.800,90.700,394.500,0.770,0.230,15.170,100344.013
+capacity-matched,28,clean CW,2600.500,2246.500,1999.500,354.000,247.000,601.000,0.589,0.411,23.111,152868.826
+capacity-matched,28,CW + 2-opt,2600.500,2201.500,1999.500,399.000,202.000,601.000,0.664,0.336,23.111,152868.826

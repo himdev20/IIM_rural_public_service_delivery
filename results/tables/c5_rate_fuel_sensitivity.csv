@@ -1,0 +1,73 @@
+shift_limit,scenario,parameter,rate_per_km,season_case,optimisation_saving_rs_year,retrofit_saving_rs_year,retrofit_payback_months
+no limit,rate,15.00,15.00,low,74087.10,26385.90,9.10
+no limit,rate,15.00,15.00,mid,79218.96,28213.60,8.51
+no limit,rate,15.00,15.00,high,85122.34,30316.07,7.92
+no limit,rate,17.00,17.00,low,83965.38,29904.02,8.03
+no limit,rate,17.00,17.00,mid,89781.49,31975.41,7.51
+no limit,rate,17.00,17.00,high,96471.99,34358.21,6.99
+no limit,rate,19.00,19.00,low,93843.66,33422.14,7.18
+no limit,rate,19.00,19.00,mid,100344.01,35737.22,6.72
+no limit,rate,19.00,19.00,high,107821.63,38400.35,6.25
+no limit,rate,21.00,21.00,low,103721.94,36940.26,6.50
+no limit,rate,21.00,21.00,mid,110906.54,39499.03,6.08
+no limit,rate,21.00,21.00,high,119171.28,42442.50,5.65
+no limit,rate,23.00,23.00,low,113600.22,40458.38,5.93
+no limit,rate,23.00,23.00,mid,121469.07,43260.85,5.55
+no limit,rate,23.00,23.00,high,130520.92,46484.64,5.16
+no limit,rate,25.00,25.00,low,123478.50,43976.50,5.46
+no limit,rate,25.00,25.00,mid,132031.60,47022.66,5.10
+no limit,rate,25.00,25.00,high,141870.57,50526.78,4.75
+no limit,fuel shock,-0.20,16.72,low,82582.42,29411.48,8.16
+no limit,fuel shock,-0.20,16.72,mid,88302.73,31448.75,7.63
+no limit,fuel shock,-0.20,16.72,high,94883.04,33792.31,7.10
+no limit,fuel shock,-0.10,17.86,low,88213.04,31416.81,7.64
+no limit,fuel shock,-0.10,17.86,mid,94323.37,33592.99,7.14
+no limit,fuel shock,-0.10,17.86,high,101352.33,36096.33,6.65
+no limit,fuel shock,0.00,19.00,low,93843.66,33422.14,7.18
+no limit,fuel shock,0.00,19.00,mid,100344.01,35737.22,6.72
+no limit,fuel shock,0.00,19.00,high,107821.63,38400.35,6.25
+no limit,fuel shock,0.10,20.14,low,99474.28,35427.47,6.77
+no limit,fuel shock,0.10,20.14,mid,106364.65,37881.45,6.34
+no limit,fuel shock,0.10,20.14,high,114290.93,40704.37,5.90
+no limit,fuel shock,0.20,21.28,low,105104.90,37432.80,6.41
+no limit,fuel shock,0.20,21.28,mid,112385.29,40025.69,6.00
+no limit,fuel shock,0.20,21.28,high,120760.23,43008.40,5.58
+no limit,fuel shock,0.40,23.56,low,116366.14,41443.45,5.79
+no limit,fuel shock,0.40,23.56,mid,124426.58,44314.15,5.42
+no limit,fuel shock,0.40,23.56,high,133698.82,47616.44,5.04
+10 h,rate,15.00,15.00,low,12207.00,0.00,inf
+10 h,rate,15.00,15.00,mid,13052.55,0.00,inf
+10 h,rate,15.00,15.00,high,14025.23,0.00,inf
+10 h,rate,17.00,17.00,low,13834.60,0.00,inf
+10 h,rate,17.00,17.00,mid,14792.89,0.00,inf
+10 h,rate,17.00,17.00,high,15895.26,0.00,inf
+10 h,rate,19.00,19.00,low,15462.20,0.00,inf
+10 h,rate,19.00,19.00,mid,16533.23,0.00,inf
+10 h,rate,19.00,19.00,high,17765.29,0.00,inf
+10 h,rate,21.00,21.00,low,17089.80,0.00,inf
+10 h,rate,21.00,21.00,mid,18273.57,0.00,inf
+10 h,rate,21.00,21.00,high,19635.32,0.00,inf
+10 h,rate,23.00,23.00,low,18717.40,0.00,inf
+10 h,rate,23.00,23.00,mid,20013.91,0.00,inf
+10 h,rate,23.00,23.00,high,21505.35,0.00,inf
+10 h,rate,25.00,25.00,low,20345.00,0.00,inf
+10 h,rate,25.00,25.00,mid,21754.26,0.00,inf
+10 h,rate,25.00,25.00,high,23375.38,0.00,inf
+10 h,fuel shock,-0.20,16.72,low,13606.74,0.00,inf
+10 h,fuel shock,-0.20,16.72,mid,14549.25,0.00,inf
+10 h,fuel shock,-0.20,16.72,high,15633.45,0.00,inf
+10 h,fuel shock,-0.10,17.86,low,14534.47,0.00,inf
+10 h,fuel shock,-0.10,17.86,mid,15541.24,0.00,inf
+10 h,fuel shock,-0.10,17.86,high,16699.37,0.00,inf
+10 h,fuel shock,0.00,19.00,low,15462.20,0.00,inf
+10 h,fuel shock,0.00,19.00,mid,16533.23,0.00,inf
+10 h,fuel shock,0.00,19.00,high,17765.29,0.00,inf
+10 h,fuel shock,0.10,20.14,low,16389.93,0.00,inf
+10 h,fuel shock,0.10,20.14,mid,17525.23,0.00,inf
+10 h,fuel shock,0.10,20.14,high,18831.21,0.00,inf
+10 h,fuel shock,0.20,21.28,low,17317.66,0.00,inf
+10 h,fuel shock,0.20,21.28,mid,18517.22,0.00,inf
+10 h,fuel shock,0.20,21.28,high,19897.12,0.00,inf
+10 h,fuel shock,0.40,23.56,low,19173.13,0.00,inf
+10 h,fuel shock,0.40,23.56,mid,20501.21,0.00,inf
+10 h,fuel shock,0.40,23.56,high,22028.96,0.00,inf

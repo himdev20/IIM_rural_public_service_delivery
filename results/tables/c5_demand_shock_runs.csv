@@ -1,0 +1,21 @@
+label,fraction_double,draw,shift_limit,capacity,total_km,total_demand
+baseline,0.00,0,no limit,20,2206.00,177
+baseline,0.00,0,no limit,25,2065.50,177
+baseline,0.00,0,10 h,20,2535.50,177
+baseline,0.00,0,10 h,25,2535.50,177
+STYLISED demand shock,0.10,0,no limit,20,2290.00,195
+STYLISED demand shock,0.10,0,no limit,25,2216.70,195
+STYLISED demand shock,0.10,0,10 h,20,2678.40,195
+STYLISED demand shock,0.10,0,10 h,25,2678.40,195
+STYLISED demand shock,0.10,1,no limit,20,2407.50,195
+STYLISED demand shock,0.10,1,no limit,25,2158.80,195
+STYLISED demand shock,0.10,1,10 h,20,2712.50,195
+STYLISED demand shock,0.10,1,10 h,25,2712.50,195
+STYLISED demand shock,0.25,0,no limit,20,2572.00,221
+STYLISED demand shock,0.25,0,no limit,25,2300.50,221
+STYLISED demand shock,0.25,0,10 h,20,2795.20,221
+STYLISED demand shock,0.25,0,10 h,25,2779.70,221
+STYLISED demand shock,0.25,1,no limit,20,2533.30,221
+STYLISED demand shock,0.25,1,no limit,25,2389.00,221
+STYLISED demand shock,0.25,1,10 h,20,2730.50,221
+STYLISED demand shock,0.25,1,10 h,25,2730.50,221

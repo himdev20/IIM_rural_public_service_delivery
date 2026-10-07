@@ -1,0 +1,7 @@
+fraction_double,shift_limit,retrofit_saving_km_mean,retrofit_saving_km_min,retrofit_saving_km_max,cost_q20_km_mean,annual_retrofit_saving_rs_summer_shock,label
+0.00,10 h,0.00,0.00,0.00,2535.50,0.00,baseline
+0.00,no limit,140.50,140.50,140.50,2206.00,35737.22,baseline
+0.10,10 h,0.00,0.00,0.00,2695.45,0.00,STYLISED demand shock (summer only)
+0.10,no limit,161.00,73.30,248.70,2348.75,38770.35,STYLISED demand shock (summer only)
+0.25,10 h,7.75,0.00,15.50,2762.85,1146.67,STYLISED demand shock (summer only)
+0.25,no limit,207.90,144.30,271.50,2552.65,45709.55,STYLISED demand shock (summer only)

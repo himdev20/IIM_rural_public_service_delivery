@@ -1,0 +1,7 @@
+policy,season_case,nagpur_rs_year,other_districts,statewide_low_rs_year,statewide_high_rs_year,caveat
+"optimised routes, no time limit",low,93843.66,35,1642264.05,4926792.15,illustrative only: one district of data
+"optimised routes, no time limit",mid,100344.01,35,1756020.22,5268060.67,illustrative only: one district of data
+"optimised routes, no time limit",high,107821.63,35,1886878.56,5660635.67,illustrative only: one district of data
+"optimised routes, same-day return",low,15462.20,35,270588.50,811765.50,illustrative only: one district of data
+"optimised routes, same-day return",mid,16533.23,35,289331.60,867994.79,illustrative only: one district of data
+"optimised routes, same-day return",high,17765.29,35,310892.54,932677.61,illustrative only: one district of data

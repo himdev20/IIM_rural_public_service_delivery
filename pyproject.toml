@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lastmile"
+version = "0.1.0"
+description = "Trucks, Time, and the Last Mile: capacity constraints and the cost of rural public-service delivery"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.10",
+  "matplotlib>=3.7",
+  "openpyxl>=3.1",
+  "ortools>=9.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.scripts]
+lastmile = "lastmile.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: runs OR-Tools (seconds)"]
+
+[tool.ruff]
+line-length = 120
+src = ["src", "tests"]

@@ -1,0 +1,184 @@
+{
+  "c0": {
+    "best_q20_km": 2206.0,
+    "best_q25_km": 2054.2,
+    "convergence_best_km": {
+      "20": 2232.3,
+      "25": 2054.2
+    },
+    "convergence_spread_km": {
+      "20": 93.2,
+      "25": 163.8
+    },
+    "replication_checks": {
+      "Q20_routes": true,
+      "Q20_sheet_total": true,
+      "Q20_total": true,
+      "Q25_routes": true,
+      "Q25_sheet_total": true,
+      "Q25_total": true,
+      "sort_order": true,
+      "status_quo_reported": true
+    },
+    "retrofit_km_by_effort": {
+      "120": 178.1,
+      "15": 150.0,
+      "30": 122.3,
+      "5": 107.5,
+      "60": 137.1
+    },
+    "sort_pairs_checked": 15576,
+    "spreadsheet_q20_km": 2336.7,
+    "spreadsheet_q25_km": 2237.5,
+    "status_quo_matrix_km": 2600.5,
+    "status_quo_reported_km": 2602.0,
+    "triangle_violation_share": 0.5776
+  },
+  "c1": {
+    "matched_best_km": 1999.5,
+    "matched_capacity": 28,
+    "matched_judgment_share": 0.589018302828619,
+    "matched_total_gap_pct": 23.110940203806962,
+    "nominal_best_km": 2206.0,
+    "nominal_gap_rs_per_year_mid": 100344.01276595745,
+    "nominal_heuristic_share": 0.33130544993662814,
+    "nominal_judgment_share": 0.6686945500633719,
+    "nominal_total_gap_km": 394.5,
+    "nominal_total_gap_pct": 15.17015958469525,
+    "status_quo_km": 2600.5,
+    "status_quo_max_load": 28
+  },
+  "c2": {
+    "c_q20_km": 2206.0,
+    "c_q25_km": 2065.5,
+    "c_qmax_km": 1993.5,
+    "mean_mv_km_above_20": 21.25,
+    "mean_mv_km_below_20": 64.66,
+    "retrofit_annual_saving_rs": {
+      "high": 38400.35303030303,
+      "low": 33422.14,
+      "mid": 35737.221276595745
+    },
+    "retrofit_breakeven_capex_1y_mid": 33090.0197,
+    "retrofit_payback_months_mid": 6.7157,
+    "retrofit_saving_km_per_cycle": 140.5
+  },
+  "c3": {
+    "calib_max_stop_min_at_base_speed_10h": 3.3438,
+    "calib_min_stop_min_at_base_speed_10h": 0.0,
+    "headline_hours": 10.0,
+    "price_same_day_km_q20": 329.5,
+    "price_same_day_pct_q20": 14.9365,
+    "price_same_day_rs_year_mid_q20": 83810.7787,
+    "retrofit_saving_km_headline": 0.0,
+    "retrofit_saving_km_unlimited": 140.5,
+    "saturation_by_limit": {
+      "10 h": 16,
+      "12 h": 17,
+      "8 h": 15,
+      "no limit": 29
+    },
+    "saturation_q_headline": 16,
+    "saturation_q_unlimited": 29,
+    "sens_price_same_day_pct_range": [
+      3.3998,
+      44.1523
+    ],
+    "sens_retrofit_km_range": [
+      0.0,
+      0.0
+    ],
+    "sens_saturation_range": [
+      15,
+      20
+    ],
+    "sq_overnight_routes_base": 6,
+    "unlimited_q20_max_duration_h": 14.3042,
+    "unlimited_q20_overnight_routes": 8
+  },
+  "c4": {
+    "base_scenario": "Q20_none",
+    "mc_gini": 0.6585,
+    "mc_spearman_rho": 0.2355,
+    "mc_top20_remote_share": 0.3518,
+    "shapley_spearman_rho": 0.7188,
+    "shapley_top20_remote_share": 0.3314,
+    "shifts": {
+      "Q20_10h->Q25_10h:marginal_cost_km": {
+        "q5_share_abs_change": NaN,
+        "rho": NaN
+      },
+      "Q20_10h->Q25_10h:shapley_km": {
+        "q5_share_abs_change": NaN,
+        "rho": NaN
+      },
+      "Q20_none->Q20_10h:marginal_cost_km": {
+        "q5_share_abs_change": 0.2702,
+        "rho": 0.0587
+      },
+      "Q20_none->Q20_10h:shapley_km": {
+        "q5_share_abs_change": 0.3423,
+        "rho": 0.5063
+      },
+      "Q20_none->Q25_none:marginal_cost_km": {
+        "q5_share_abs_change": 0.1045,
+        "rho": 0.0352
+      },
+      "Q20_none->Q25_none:shapley_km": {
+        "q5_share_abs_change": 0.1342,
+        "rho": 0.0891
+      },
+      "Q25_none->Q25_10h:marginal_cost_km": {
+        "q5_share_abs_change": 0.2536,
+        "rho": 0.0211
+      },
+      "Q25_none->Q25_10h:shapley_km": {
+        "q5_share_abs_change": 0.4042,
+        "rho": 0.4406
+      }
+    }
+  },
+  "c5": {
+    "cycles_per_year": {
+      "high": 14.3848,
+      "low": 12.52,
+      "mid": 13.3872
+    },
+    "demand_shock_retrofit_km": {
+      "0.1|10 h": 0.0,
+      "0.1|no limit": 161.0,
+      "0.25|10 h": 7.75,
+      "0.25|no limit": 207.9,
+      "0|10 h": 0.0,
+      "0|no limit": 140.5
+    },
+    "metric_closure": {
+      "raw matrix": {
+        "best_q20_km": 2206.0,
+        "best_q25_km": 2065.5,
+        "gap_pct": 15.1702,
+        "retrofit_saving_km": 140.5,
+        "status_quo_km": 2600.5,
+        "triangle_violation_share": 0.5776
+      },
+      "shortest-path closure": {
+        "best_q20_km": 2285.0,
+        "best_q25_km": 2134.0,
+        "gap_pct": 11.3998,
+        "retrofit_saving_km": 151.0,
+        "status_quo_km": 2579.0,
+        "triangle_violation_share": 0.0
+      }
+    },
+    "optimisation_saving_rs_year": {
+      "high": 107821.6318,
+      "low": 93843.66,
+      "mid": 100344.0128
+    },
+    "retrofit_payback_months_unlimited": {
+      "high": 6.2499,
+      "low": 7.1809,
+      "mid": 6.7157
+    }
+  }
+}

@@ -1,0 +1,5 @@
+benchmark,target_km,python_km,routes_identical,match
+"Status quo (Table 1, reported)",2602.0000,2602.0000,,True
+"Status quo (Table 1, re-measured on matrix)",,2600.5000,,
+"Spreadsheet savings model, Q=20 (Sheet20)",2336.7000,2336.7000,True,True
+"Spreadsheet savings model, Q=25 (Sheet25)",2237.5000,2237.5000,True,True

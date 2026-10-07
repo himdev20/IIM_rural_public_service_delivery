@@ -1,0 +1,203 @@
+== C3: duration-constrained routing ==
+-- duration limit 8 h (base speed/stop)
+  [Q=15, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=16, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=17, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=18, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=19, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=20, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=21, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=22, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=23, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=24, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=25, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=26, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=27, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=28, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=29, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=30, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+-- duration limit 10 h (base speed/stop)
+  [Q=15, H=10h, 40kmh-20min, n=177] best=  2542.0 km via pool:ortools-down
+  [Q=16, H=10h, 40kmh-20min, n=177] best=  2536.5 km via pool:ortools-down
+  [Q=17, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=18, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=19, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=21, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=22, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=23, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=24, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=26, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=27, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=28, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=29, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=30, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+-- duration limit 12 h (base speed/stop)
+  [Q=15, H=12h, 40kmh-20min, n=177] best=  2536.0 km via pool:ortools-down
+  [Q=16, H=12h, 40kmh-20min, n=177] best=  2467.5 km via pool:ortools-down
+  [Q=17, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=18, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=19, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=20, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=21, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=22, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=23, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=24, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=25, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=26, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=27, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=28, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=29, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=30, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+-- no duration limit
+  [Q=15, H=none, n=177] best=  2529.3 km via pool:ortools-down
+  [Q=16, H=none, n=177] best=  2398.3 km via pool:ortools-down
+  [Q=17, H=none, n=177] best=  2369.8 km via pool:ortools-up
+  [Q=18, H=none, n=177] best=  2272.5 km via pool:ortools-down
+  [Q=19, H=none, n=177] best=  2264.3 km via pool:ortools-up
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=21, H=none, n=177] best=  2191.3 km via pool:ortools-up
+  [Q=22, H=none, n=177] best=  2127.8 km via pool:ortools-down
+  [Q=23, H=none, n=177] best=  2086.8 km via pool:ortools-down
+  [Q=24, H=none, n=177] best=  2082.5 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=26, H=none, n=177] best=  2063.5 km via pool:ortools-up
+  [Q=27, H=none, n=177] best=  2009.5 km via pool:ortools-down
+  [Q=28, H=none, n=177] best=  1999.5 km via pool:ortools-down
+  [Q=29, H=none, n=177] best=  1994.5 km via pool:ortools-up
+  [Q=30, H=none, n=177] best=  1993.5 km via pool:ortools-up
+  [Q=15, H=none, n=177] best=  2529.3 km via pool:ortools-down
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=30, H=none, n=177] best=  1993.5 km via pool:ortools-up
+-- sensitivity 35 km/h, 15 min/stop, 10 h
+  [Q=15, H=10h, 35kmh-15min, n=177] best=  2586.0 km via pool:ortools-down
+  [Q=20, H=10h, 35kmh-15min, n=177] best=  2501.0 km via pool:ortools-down
+  [Q=25, H=10h, 35kmh-15min, n=177] best=  2501.0 km via pool:ortools-down
+  [Q=30, H=10h, 35kmh-15min, n=177] best=  2501.0 km via pool:ortools-down
+-- sensitivity 35 km/h, 20 min/stop, 10 h
+  [Q=15, H=10h, 35kmh-20min, n=177] best=  2741.5 km via cw+2opt
+  [Q=20, H=10h, 35kmh-20min, n=177] best=  2736.0 km via cw+2opt
+  [Q=25, H=10h, 35kmh-20min, n=177] best=  2736.0 km via cw+2opt
+  [Q=30, H=10h, 35kmh-20min, n=177] best=  2736.0 km via cw+2opt
+-- sensitivity 35 km/h, 30 min/stop, 10 h
+  [Q=15, H=10h, 35kmh-30min, n=177] best=  3180.0 km via cw+2opt
+  [Q=20, H=10h, 35kmh-30min, n=177] best=  3180.0 km via cw+2opt
+  [Q=25, H=10h, 35kmh-30min, n=177] best=  3180.0 km via cw+2opt
+  [Q=30, H=10h, 35kmh-30min, n=177] best=  3180.0 km via cw+2opt
+-- sensitivity 40 km/h, 15 min/stop, 10 h
+  [Q=15, H=10h, 40kmh-15min, n=177] best=  2510.3 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-15min, n=177] best=  2440.0 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-15min, n=177] best=  2440.0 km via pool:ortools-up
+  [Q=30, H=10h, 40kmh-15min, n=177] best=  2440.0 km via pool:ortools-up
+-- sensitivity 40 km/h, 20 min/stop, 10 h
+  [Q=15, H=10h, 40kmh-20min, n=177] best=  2542.0 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=30, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+-- sensitivity 40 km/h, 30 min/stop, 10 h
+  [Q=15, H=10h, 40kmh-30min, n=177] best=  2946.5 km via pool:ortools-up
+  [Q=20, H=10h, 40kmh-30min, n=177] best=  2946.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-30min, n=177] best=  2946.5 km via pool:ortools-up
+  [Q=30, H=10h, 40kmh-30min, n=177] best=  2946.5 km via pool:ortools-up
+-- sensitivity 45 km/h, 15 min/stop, 10 h
+  [Q=15, H=10h, 45kmh-15min, n=177] best=  2510.3 km via pool:ortools-down
+  [Q=20, H=10h, 45kmh-15min, n=177] best=  2281.0 km via pool:ortools-down
+  [Q=25, H=10h, 45kmh-15min, n=177] best=  2281.0 km via pool:ortools-down
+  [Q=30, H=10h, 45kmh-15min, n=177] best=  2281.0 km via pool:ortools-down
+-- sensitivity 45 km/h, 20 min/stop, 10 h
+  [Q=15, H=10h, 45kmh-20min, n=177] best=  2499.5 km via pool:ortools-down
+  [Q=20, H=10h, 45kmh-20min, n=177] best=  2498.3 km via pool:ortools-up
+  [Q=25, H=10h, 45kmh-20min, n=177] best=  2498.3 km via pool:ortools-up
+  [Q=30, H=10h, 45kmh-20min, n=177] best=  2498.3 km via pool:ortools-up
+-- sensitivity 45 km/h, 30 min/stop, 10 h
+  [Q=15, H=10h, 45kmh-30min, n=177] best=  2894.5 km via pool:ortools-up
+  [Q=20, H=10h, 45kmh-30min, n=177] best=  2894.5 km via pool:ortools-up
+  [Q=25, H=10h, 45kmh-30min, n=177] best=  2894.5 km via pool:ortools-up
+  [Q=30, H=10h, 45kmh-30min, n=177] best=  2894.5 km via pool:ortools-up
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+   [c3 done in 823 s]
+== C4: who bears the cost ==
+-- incidence scenario Q20_none
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+    marginal costs: 25/177
+    marginal costs: 50/177
+    marginal costs: 75/177
+    marginal costs: 100/177
+    marginal costs: 125/177
+    marginal costs: 150/177
+    marginal costs: 175/177
+-- incidence scenario Q25_none
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+    marginal costs: 25/177
+    marginal costs: 50/177
+    marginal costs: 75/177
+    marginal costs: 100/177
+    marginal costs: 125/177
+    marginal costs: 150/177
+    marginal costs: 175/177
+-- incidence scenario Q20_10h
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+    marginal costs: 25/177
+    marginal costs: 50/177
+    marginal costs: 75/177
+    marginal costs: 100/177
+    marginal costs: 125/177
+    marginal costs: 150/177
+    marginal costs: 175/177
+-- incidence scenario Q25_10h
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+    marginal costs: 25/177
+    marginal costs: 50/177
+    marginal costs: 75/177
+    marginal costs: 100/177
+    marginal costs: 125/177
+    marginal costs: 150/177
+    marginal costs: 175/177
+   [c4 done in 2 s]
+== C5: robustness and counterfactuals ==
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=20, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=25, H=8h, 40kmh-20min, n=177] best=  2979.5 km via pool:ortools-up
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=20, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=25, H=12h, 40kmh-20min, n=177] best=  2388.5 km via pool:ortools-down
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=20, H=none, n=177] best=  2290.0 km via ortools
+  [Q=25, H=none, n=177] best=  2216.7 km via ortools
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2678.4 km via cw+2opt
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2678.4 km via cw+2opt
+  [Q=20, H=none, n=177] best=  2407.5 km via cw+2opt
+  [Q=25, H=none, n=177] best=  2158.8 km via ortools
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2712.5 km via ortools
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2712.5 km via ortools
+  [Q=20, H=none, n=177] best=  2572.0 km via cw+2opt
+  [Q=25, H=none, n=177] best=  2300.5 km via ortools
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2795.2 km via cw+2opt
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2779.7 km via cw+2opt
+  [Q=20, H=none, n=177] best=  2533.3 km via ortools
+  [Q=25, H=none, n=177] best=  2389.0 km via cw+2opt
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2730.5 km via cw+2opt
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2730.5 km via cw+2opt
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=25, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=25, H=none, n=177] best=  2065.5 km via pool:ortools-down
+  [Q=20, H=none, n=177] best=  2285.0 km via cw+2opt
+  [Q=25, H=none, n=177] best=  2134.0 km via cw+2opt
+  [Q=20, H=none, n=177] best=  2206.0 km via pool:ortools-down
+  [Q=20, H=10h, 40kmh-20min, n=177] best=  2535.5 km via pool:ortools-up
+   [c5 done in 192 s]
+== Writing SUMMARY.md ==
+   [report done in 0 s]
